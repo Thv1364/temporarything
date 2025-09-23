@@ -16,4 +16,4 @@ plt.scatter(spelling, grammar,s=area, c=colors, alpha=0.25)
 ax.set(xlabel='Number of Identified Spelling Errors',ylabel='Number of Identified Grammar Errors',title='Number of Identified Spelling Errors vs Number of Identified Grammar Errors')
 # either have show or savefig commented
 plt.show()
-# plt.savefig('figure1.png', dpi=300)
+plt.savefig('figure1.png', dpi=300)
